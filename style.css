@@ -1093,6 +1093,15 @@ input:focus {
   z-index: 1;
   background-color: #1b1b1b;
   padding-top: 180px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .footer-area  {
+    background-position: right; /* Establece la posición del fondo como predeterminada */
+  }
 }
 
 .single-footer-widget {
@@ -1102,7 +1111,7 @@ input:focus {
 
 .single-footer-widget .widget-title {
   font-size: 22px;
-  color: #ffffff;
+  color: #ec6728;
   margin-bottom: 25px;
   display: block;
   text-transform: capitalize;
@@ -1151,7 +1160,7 @@ input:focus {
 .single-footer-widget .footer-nav li a {
   display: block;
   margin-bottom: 10px;
-  color: #ec6728;
+  color: #fff;
   font-size: 14px;
   font-weight: 400;
   text-transform: capitalize;
@@ -1159,7 +1168,7 @@ input:focus {
 
 .single-footer-widget .footer-nav li a:focus,
 .single-footer-widget .footer-nav li a:hover {
-  color: #ffffff;
+  color: #ec6728;
 }
 
 .single-footer-widget .footer-nav li:last-child a {
@@ -1222,7 +1231,7 @@ input:focus {
 }
 
 .single-footer-widget span {
-  color: #afb4bf;
+  color: #fff;
   font-size: 14px;
   display: block;
   margin-bottom: 10px;
@@ -1235,12 +1244,15 @@ input:focus {
 .copywrite-text {
   position: relative;
   z-index: 1;
+  text-align: center;
+  margin-top: 60px;
 }
 
 @media only screen and (max-width: 767px) {
   .copywrite-text {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     text-align: center;
+    margin-top: 0;
   }
 }
 
@@ -1276,7 +1288,7 @@ input:focus {
   position: relative;
   z-index: 1;
   padding: 15px 0;
-  border-top: 1px solid #273d4b;
+  /*border-top: 1px solid #273d4b;*/
 }
 
 .copywrite-content .social-info {
@@ -3132,6 +3144,10 @@ html .ui-button.ui-state-disabled:active {
 .single-post-area:hover .post-title,
 .single-post-area:focus .post-title {
   color: #ec6728;
+}
+
+.single-post-area img {
+  border-radius: 6px;
 }
 
 .single-blog-post {
@@ -5198,4 +5214,9 @@ html .ui-button.ui-state-disabled:active {
   -ms-grid-row: 25;
   -ms-grid-row-span: 27;
   grid-row: 25 / span 27;
+}
+
+.max-height-300 {
+  max-height: 300px;
+  padding-bottom: 10px;
 }
