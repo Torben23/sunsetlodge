@@ -1,7 +1,7 @@
 /* ------------------------------------------
 [Master Stylesheet]
 
-Template Name: Roberto - Hotel & Resort HTML Template
+Template Name: sunset - Hotel & Resort HTML Template
 Template Author: Colorlib
 Template Author URL: http://colorlib.com
 Version: 1.0.0
@@ -504,7 +504,7 @@ input:focus {
   box-shadow: none;
 }
 
-.roberto-btn {
+.sunset-btn {
   position: relative;
   z-index: 1;
   min-width: 150px;
@@ -525,8 +525,8 @@ input:focus {
   transition-duration: 500ms;
 }
 
-.roberto-btn:focus,
-.roberto-btn:hover {
+.sunset-btn:focus,
+.sunset-btn:hover {
   font-weight: 500;
   -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
   box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
@@ -534,7 +534,7 @@ input:focus {
   color: #ec6728;
 }
 
-.roberto-btn.btn-2 {
+.sunset-btn.btn-2 {
   min-width: 180px;
   height: 50px;
   line-height: 46px;
@@ -543,8 +543,8 @@ input:focus {
   color: #ffffff;
 }
 
-.roberto-btn.btn-2:focus,
-.roberto-btn.btn-2:hover {
+.sunset-btn.btn-2:focus,
+.sunset-btn.btn-2:hover {
   color: #ffffff;
   background-color: #ec6728;
 }
@@ -1434,46 +1434,46 @@ input:focus {
 }
 
 /* :: 12.0 CTA CSS */
-.roberto-cta-area {
+.sunset-cta-area {
   position: relative;
   z-index: 1;
 }
 
-.roberto-cta-area .cta-content {
+.sunset-cta-area .cta-content {
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
 }
 
-.roberto-cta-area .cta-text h2 {
+.sunset-cta-area .cta-text h2 {
   color: #ffffff;
   font-size: 36px;
   margin-bottom: 10px;
 }
 
-.roberto-cta-area .cta-text h6 {
+.sunset-cta-area .cta-text h6 {
   margin-bottom: 0;
   color: #ffffff;
 }
 
 /* :: 13.0 Testimonial Area CSS */
-.roberto-testimonials-area {
+.sunset-testimonials-area {
   position: relative;
   z-index: 1;
 }
 
-.roberto-testimonials-area .testimonial-thumbnail {
+.sunset-testimonials-area .testimonial-thumbnail {
   position: relative;
   z-index: 1;
   padding-right: 15px;
 }
 
-.roberto-testimonials-area .testimonial-thumbnail img {
+.sunset-testimonials-area .testimonial-thumbnail img {
   border-radius: 8px;
   width: 100% !important;
 }
 
-.roberto-testimonials-area .single-testimonial-slide h5 {
+.sunset-testimonials-area .single-testimonial-slide h5 {
   color: #636a76;
   font-weight: 400;
   font-size: 18px;
@@ -1481,44 +1481,44 @@ input:focus {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .roberto-testimonials-area .single-testimonial-slide h5 {
+  .sunset-testimonials-area .single-testimonial-slide h5 {
     font-size: 16px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .roberto-testimonials-area .single-testimonial-slide h5 {
+  .sunset-testimonials-area .single-testimonial-slide h5 {
     font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .roberto-testimonials-area .single-testimonial-slide h5 {
+  .sunset-testimonials-area .single-testimonial-slide h5 {
     font-size: 16px;
   }
 }
 
-.roberto-testimonials-area .single-testimonial-slide .rating-title {
+.sunset-testimonials-area .single-testimonial-slide .rating-title {
   position: relative;
   z-index: 1;
   margin-top: 15px;
 }
 
-.roberto-testimonials-area .single-testimonial-slide .rating-title .rating {
+.sunset-testimonials-area .single-testimonial-slide .rating-title .rating {
   display: block;
   margin-bottom: 10px;
 }
 
-.roberto-testimonials-area .single-testimonial-slide .rating-title .rating i {
+.sunset-testimonials-area .single-testimonial-slide .rating-title .rating i {
   color: #f5b917;
   font-size: 14px;
 }
 
-.roberto-testimonials-area .single-testimonial-slide .rating-title h6 {
+.sunset-testimonials-area .single-testimonial-slide .rating-title h6 {
   margin-bottom: 0;
 }
 
-.roberto-testimonials-area .single-testimonial-slide .rating-title h6 span {
+.sunset-testimonials-area .single-testimonial-slide .rating-title h6 span {
   color: #ec6728;
   font-size: 14px;
   font-weight: 400;
@@ -2405,7 +2405,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 @media only screen and (max-width: 767px) {
-  .roberto-service-area .service-content {
+  .sunset-service-area .service-content {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-bottom: 70px;
@@ -2556,12 +2556,12 @@ html .ui-button.ui-state-disabled:active {
   border-color: #ec6728;
 }
 
-.roberto-about-area {
+.sunset-about-area {
   position: relative;
   z-index: 1;
 }
 
-.roberto-about-area .hotel-search-form-area {
+.sunset-about-area .hotel-search-form-area {
   position: absolute;
   width: 100%;
   z-index: 100;
@@ -2571,23 +2571,23 @@ html .ui-button.ui-state-disabled:active {
   transform: translateY(-50%);
 }
 
-.roberto-about-area .hotel-search-form-area .nice-select {
+.sunset-about-area .hotel-search-form-area .nice-select {
   line-height: 35px;
 }
 
-.roberto--video--area {
+.sunset--video--area {
   position: relative;
   z-index: 1;
   padding-top: 150px;
   padding-bottom: 150px;
 }
 
-.roberto--video--area .video-content-area {
+.sunset--video--area .video-content-area {
   position: relative;
   z-index: 1;
 }
 
-.roberto--video--area .video-content-area .video-play-btn {
+.sunset--video--area .video-content-area .video-play-btn {
   display: inline-block;
   width: 70px;
   height: 70px;
@@ -2605,12 +2605,12 @@ html .ui-button.ui-state-disabled:active {
   z-index: 100;
 }
 
-.roberto--video--area .video-content-area .video-play-btn i {
+.sunset--video--area .video-content-area .video-play-btn i {
   padding-left: 5px;
 }
 
 @media only screen and (max-width: 767px) {
-  .roberto--video--area .video-content-area .video-play-btn {
+  .sunset--video--area .video-content-area .video-play-btn {
     width: 60px;
     height: 60px;
     font-size: 24px;
@@ -2620,31 +2620,31 @@ html .ui-button.ui-state-disabled:active {
   }
 }
 
-.roberto--video--area .video-content-area .video-play-btn:hover,
-.roberto--video--area .video-content-area .video-play-btn:focus {
+.sunset--video--area .video-content-area .video-play-btn:hover,
+.sunset--video--area .video-content-area .video-play-btn:focus {
   background-color: #ec6728;
   color: #ffffff;
 }
 
 /* :: 16.0 Contact Area CSS */
-.roberto-contact-form {
+.sunset-contact-form {
   position: relative;
   z-index: 1;
 }
 
-.roberto-contact-form h2 {
+.sunset-contact-form h2 {
   margin-bottom: 30px;
   font-size: 22px;
   display: block;
 }
 
 @media only screen and (max-width: 767px) {
-  .roberto-contact-form h2 {
+  .sunset-contact-form h2 {
     font-size: 24px;
   }
 }
 
-.roberto-contact-form .form-control {
+.sunset-contact-form .form-control {
   width: 100%;
   height: 50px;
   padding: 0 20px;
@@ -2654,12 +2654,12 @@ html .ui-button.ui-state-disabled:active {
   border: 1px solid #ebebeb;
 }
 
-.roberto-contact-form .form-control:focus {
+.sunset-contact-form .form-control:focus {
   box-shadow: none;
   border-color: #ec6728;
 }
 
-.roberto-contact-form textarea.form-control {
+.sunset-contact-form textarea.form-control {
   height: 150px;
   padding: 20px;
 }
@@ -3368,14 +3368,14 @@ html .ui-button.ui-state-disabled:active {
   }
 }
 
-.roberto-blockquote {
+.sunset-blockquote {
   position: relative;
   z-index: 1;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
-.roberto-blockquote .icon {
+.sunset-blockquote .icon {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 70px;
   flex: 0 0 70px;
@@ -3383,11 +3383,11 @@ html .ui-button.ui-state-disabled:active {
   width: 70px;
 }
 
-.roberto-blockquote .icon img {
+.sunset-blockquote .icon img {
   padding-top: 10px;
 }
 
-.roberto-blockquote .text h5 {
+.sunset-blockquote .text h5 {
   margin-bottom: 10px;
   color: #707070;
   font-style: italic;
@@ -4432,7 +4432,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 
-.roberto-rooms-area .single-testimonial-slide img {
+.sunset-rooms-area .single-testimonial-slide img {
   border-radius: 18px;
 }
 
