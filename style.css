@@ -1,4 +1,5 @@
 /* ------------------------------------------
+
 [Tables of CSS Content]
 
 + body
@@ -3848,6 +3849,35 @@ html .ui-button.ui-state-disabled:active {
   background: #ec6728;
 }
 
+.line-button2 {
+  font-family: "Poppins", sans-serif;
+  color: #315d7a;
+  line-height: 1.3;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  font-size: 28px;
+}
+
+.line-button2::before {
+  position: absolute;
+  content: "";
+  background: #ec6728;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+}
+
+.line-button2:hover {
+  color: #ec6728;
+}
+
+.line-button2:hover::before {
+  background: #ec6728;
+}
 
 .instragram_area {
   display: block;
@@ -4434,7 +4464,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .wrap-about .img-2 {
-  height: 600px;
+  height: 500px;
 }
 
 
@@ -4474,6 +4504,10 @@ html .ui-button.ui-state-disabled:active {
   font-size: 30px;
   margin-bottom: 40px;
 }
+
+@media (max-width: 767px) {
+  .sidebar-box {
+    display: none; } }
 
 .categories li,
 .sidelink li {
@@ -5209,4 +5243,14 @@ html .ui-button.ui-state-disabled:active {
 .max-height-300 {
   max-height: 300px;
   padding-bottom: 10px;
+}
+
+.button-apart {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .button-apart {
+    justify-content: center;
+  }
 }
