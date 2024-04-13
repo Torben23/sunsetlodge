@@ -4207,6 +4207,12 @@ html .ui-button.ui-state-disabled:active {
   height: 400px;
 }
 
+@media (max-width: 767px) {
+  .video-sec {
+    font-size: 12px;
+  }
+}
+
 .video-sec .overlay2 {
   background-color: rgba(236, 102, 40, 0.384);
   width: 100%;
@@ -4250,6 +4256,13 @@ html .ui-button.ui-state-disabled:active {
   justify-content: center;
   position: relative;
   display: flex;
+  padding-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .clip {
+    padding-top: 0;
+  }
 }
 
 .play-btn {
@@ -5097,7 +5110,6 @@ html .ui-button.ui-state-disabled:active {
 .cookie-consent p {
   margin: 0;
   color: #fff;
-  padding-bottom: 10px;
 }
 
 .cookie-consent a {
