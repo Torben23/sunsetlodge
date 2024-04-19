@@ -370,29 +370,7 @@
         event.preventDefault();
         // Llamar a la función para enviar el mensaje por WhatsApp
         sendWhatsAppMessage();
-    });
-
-
-    // Función para manejar el hover sobre el botón de promo code
-    function handlePromoButtonHover() {
-        var promoButton = document.getElementById('promoButton');
-        promoButton.textContent = "2024BKFT";
-    }
-
-    // Función para manejar el mouse fuera del botón de promo code
-    function handlePromoButtonMouseOut() {
-        var promoButton = document.getElementById('promoButton');
-        promoButton.textContent = "Promo Code";
-    }
-
-    // Agregar event listener para el hover sobre el botón de promo code
-    document.getElementById('promoButton').addEventListener('mouseenter', handlePromoButtonHover);
-
-    // Agregar event listener para el mouse fuera del botón de promo code
-    document.getElementById('promoButton').addEventListener('mouseleave', handlePromoButtonMouseOut);
-
-
-    
+    });   
 
 })(jQuery);
 
