@@ -376,7 +376,7 @@
     // Función para manejar el hover sobre el botón de promo code
     function handlePromoButtonHover() {
         var promoButton = document.getElementById('promoButton');
-        promoButton.textContent = "Best Sunsets";
+        promoButton.textContent = "2024BKFT";
     }
 
     // Función para manejar el mouse fuera del botón de promo code
