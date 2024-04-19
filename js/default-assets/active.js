@@ -358,7 +358,7 @@
         var whatsappMessage = "Consulta:%0A" + "Nombre: " + name + "%0AEmail: " + email + "%0AMensaje: " + message;
     
         // Create the WhatsApp link
-        var whatsappLink = "https://wa.me/50254936161/?text=" + whatsappMessage;
+        var whatsappLink = "https://wa.me/50240361801/?text=" + whatsappMessage;
     
         // Open the link in a new window/tab
         window.open(whatsappLink, "_blank");
