@@ -347,5 +347,52 @@
         });
     });
 
+    // Script para enviar mensaje por WhatsApp 
+
+    function sendWhatsAppMessage() {
+        var name = document.getElementById('name').value;        
+        var email = document.getElementById('email').value;        
+        var message = document.getElementById('message').value;
+    
+        // Construct the WhatsApp message with reservation information
+        var whatsappMessage = "Consulta:%0A" + "Nombre: " + name + "%0AEmail: " + email + "%0AMensaje: " + message;
+    
+        // Create the WhatsApp link
+        var whatsappLink = "https://wa.me/50254936161/?text=" + whatsappMessage;
+    
+        // Open the link in a new window/tab
+        window.open(whatsappLink, "_blank");
+    }
+    
+    // Add click event listener to the WhatsApp button
+    document.getElementById('whatsappLink').addEventListener('click', function(event) {
+        // Prevenir la acción por defecto del botón (enviar el formulario)
+        event.preventDefault();
+        // Llamar a la función para enviar el mensaje por WhatsApp
+        sendWhatsAppMessage();
+    });
+
+
+    // Función para manejar el hover sobre el botón de promo code
+    function handlePromoButtonHover() {
+        var promoButton = document.getElementById('promoButton');
+        promoButton.textContent = "Best Sunsets";
+    }
+
+    // Función para manejar el mouse fuera del botón de promo code
+    function handlePromoButtonMouseOut() {
+        var promoButton = document.getElementById('promoButton');
+        promoButton.textContent = "Promo Code";
+    }
+
+    // Agregar event listener para el hover sobre el botón de promo code
+    document.getElementById('promoButton').addEventListener('mouseenter', handlePromoButtonHover);
+
+    // Agregar event listener para el mouse fuera del botón de promo code
+    document.getElementById('promoButton').addEventListener('mouseleave', handlePromoButtonMouseOut);
+
+
+    
+
 })(jQuery);
 
