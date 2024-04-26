@@ -359,7 +359,7 @@ input:focus {
   position: absolute;
   top: calc(50% - 40px);
   /* Ajusta la posición vertical según el nuevo tamaño */
-  left: calc(50% - 85px);
+  left: calc(50% - 90px);
   /* Ajusta la posición horizontal según el nuevo tamaño */
   width: 200px;
   /* Nuevo ancho del icono */
@@ -5275,4 +5275,39 @@ html .ui-button.ui-state-disabled:active {
   .promo {
     text-align: unset;
   }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
