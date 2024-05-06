@@ -868,7 +868,7 @@
                     <!-- Section Heading -->
                     <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
                         <h6>Spa</h6>
-                        <h2>Book your turn</h2>
+                        <h2>Book your massage</h2>
                     </div>
                 </div>
             </div>
@@ -882,7 +882,7 @@
                                 <input id="name" type="text" name="message-name" class="form-control mb-30" placeholder="Your Name">
                             </div>
                             <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
-                                <select id="roomOptions" class="form-control">
+                                <select id="roomOptions" class="form-control mb-30">
                                     <option value="" disabled selected>Select Room</option>
                                     <option value="Rock Apart">Rock Apart</option>
                                     <option value="Loft Apart">Loft Apart</option>
@@ -895,12 +895,12 @@
                                   </select>
                             </div>
                             <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
-                                <input type="text" id="datepicker" class="form-control" placeholder="Select Date" data-rule="minlen:4" data-msg="Please enter a valid date">
+                                <input type="text" id="datepicker" class="form-control mb-30" placeholder="Select Date" data-rule="minlen:4" data-msg="Please enter a valid date">
                                 <!-- Campo oculto para almacenar la fecha seleccionada -->
                                 <input type="hidden" id="date" name="date" /> 
                             </div>  
                             <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
-                                <select id="time" class="form-control">
+                                <select id="time" class="form-control mb-30">
                                     <option value="" disabled selected>Select Time</option>                                    
                                     <option value="07.00 AM">07.00 AM</option>
                                     <option value="08.00 AM">08.00 AM</option>
@@ -1247,7 +1247,7 @@
             sendSpaAppointment();
         });  
     
-        // Calendario Verga
+        // Calendario 
         $(document).ready(function() {
             // Configurar el selector de fecha
             $("#datepicker").datepicker({
