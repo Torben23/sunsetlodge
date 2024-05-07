@@ -929,9 +929,7 @@
                     <!-- Form -->
                     <div class="sunset-contact-form">                        
                         <div class="row">
-                            <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
-                                <input id="name" type="text" name="message-name" class="form-control mb-30" placeholder="Your Name">
-                            </div>
+                            
                             <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
                                 <select id="roomOptions" class="form-control mb-30">
                                     <option value="" disabled selected>Select Room</option>
@@ -946,11 +944,6 @@
                                   </select>
                             </div>
                             <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
-                                <input type="text" id="datepicker" class="form-control mb-30" placeholder="Select Date" data-rule="minlen:4" data-msg="Please enter a valid date">
-                                <!-- Campo oculto para almacenar la fecha seleccionada -->
-                                <input type="hidden" id="date" name="date" /> 
-                            </div>  
-                            <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
                                 <select id="time" class="form-control mb-30">
                                     <option value="" disabled selected>Select Time</option>                                    
                                     <option value="07.00 AM">07.00 AM</option>
@@ -962,9 +955,17 @@
                                     <option value="13.00 AM">13.00 PM</option>
                                     <option value="14.00 AM">14.00 PM</option>
                                     <option value="15.00 AM">15.00 PM</option>
-                                    <option value="16.00 AM">16.00 PM</option>
                                 </select>
                             </div>
+                            <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
+                                <input id="name" type="text" name="message-name" class="form-control mb-30" placeholder="Your Name">
+                            </div>
+                            <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
+                                <input type="text" id="datepicker" class="form-control mb-30" placeholder="Select Date" data-rule="minlen:4" data-msg="Please enter a valid date">
+                                <!-- Campo oculto para almacenar la fecha seleccionada -->
+                                <input type="hidden" id="date" name="date" /> 
+                            </div>  
+                            
                             <div class="col-12 text-center wow fadeInUp" data-wow-delay="100ms">
                                 <button id="spaWhatsAppLink" type="submit" class="btn sunset-btn mt-30">Send Message</button>
                             </div>                                
