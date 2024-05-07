@@ -655,7 +655,7 @@
                     </div>
                 </div>
 
-                <div class="modal fade" id="video3Modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                <!-- <div class="modal fade" id="video3Modal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content rounded-0">
@@ -665,7 +665,7 @@
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <!-- 16:9 aspect ratio -->
+                                
                                 <div class="ratio ratio-16x9">
                                     <iframe class="embed-responsive-item" src="" id="video3" allowfullscreen
                                         allowscriptaccess="always" allow="autoplay"></iframe>
@@ -673,7 +673,58 @@
                             </div>
                         </div>
                     </div>
+                </div>-->
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="sunset-testimonials-area pt-50">
+        <div class="container px-0 wow zoomIn" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-lg-6 col-md-7">
+                    <div class="imgs-grid">
+
+                        <div class="grid grid-2">
+                            <img src="img/partners/img-grid-10.jpg" alt="atitlansunsetlodge">
+                        </div>
+                        <div class="grid grid-1">
+                            <img src="img/partners/img-grid-9.jpg" alt="atitlansunsetlodge">
+                        </div>
+                        <div class="grid grid-3">
+                            <img src="img/partners/img-grid-8.jpg" alt="atitlansunsetlodge">
+                        </div>
+                        <!--<div class="video3">
+                            <button type="button" class="btn-play" data-bs-toggle="modal"
+                                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#video3Modal">
+                                <span></span>
+                            </button>
+                        </div>-->
+                    </div>
                 </div>
+
+                <div class="col-lg-6 col-md-5 d-flex align-items-center order-md-1">
+                    <div class="pt-5 section-heading">
+                        <h6>Our Partners</h6>
+                        <h1 class="mb-4">Rented accommodation in Guatemala City<i class="mb-4 bx bx-bed text-primary me-2"></i></br>
+                            <p class="mb-4">One of the preferred accommodations among guests on Airbnb.</p>
+                            <p class="mb-4">10 minutes from the airport. Relax in this safe, quiet, and stylish space. 
+                                Just steps away from Plaza Fontabella, Oakland Mall, and La Torre supermarket.</p>
+                            <p class="mb-4">Close to hospitals, shopping centers, restaurants, and supermarkets. 
+                                Located in one of the most important sectors of Guatemala City, near various international NGOs such as the World Bank, 
+                                Save the Children, and the International Organization for Migration.</p>
+                            <p class="mb-4">Beautiful studio in a modern building with excellent amenities. Heated pool, terrace, and security at the entrance.</p>
+                            <div>
+                                <a href="https://www.airbnb.com/rooms/826307913950313107?guests=1&adults=1&s=67&unique_share_id=db2cdd97-a2ed-4864-9ca2-6fc0f2944852"
+                                    class="btn btn-primary py-3 px-5 me-3" data-bs-toggle="modal"
+                                    data-bs-target="#video3Modal">Book Now</a>
+                               <!--  <a href="roomcasa.html" class="btn btn-dark py-3 px-5" data-bs-toggle="modal"
+                                    data-bs-target="#video3Modal">Details</a>-->
+                            </div>
+                            
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -850,7 +901,7 @@
                 <!-- Hover Effects -->
                 <div class="hover-effects">
                     <div class="text">
-                        <p>Book your spa turn below this section</p>
+                        <p>Book your spa turn below this section (Required confirmation)</p>
                     </div>
                     <div class="project-btn">Healthy Activities</div>
                 </div>
@@ -907,6 +958,11 @@
                                     <option value="09.00 AM">09.00 AM</option>
                                     <option value="10.00 AM">10.00 AM</option>                                    
                                     <option value="11.00 AM">11.00 AM</option>
+                                    <option value="12.00 AM">12.00 PM</option>
+                                    <option value="13.00 AM">13.00 PM</option>
+                                    <option value="14.00 AM">14.00 PM</option>
+                                    <option value="15.00 AM">15.00 PM</option>
+                                    <option value="16.00 AM">16.00 PM</option>
                                 </select>
                             </div>
                             <div class="col-12 text-center wow fadeInUp" data-wow-delay="100ms">
@@ -1247,7 +1303,7 @@
             sendSpaAppointment();
         });  
     
-        // Calendario 
+        // Calendario Verga
         $(document).ready(function() {
             // Configurar el selector de fecha
             $("#datepicker").datepicker({
